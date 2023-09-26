@@ -74,7 +74,7 @@ In this Project, we build a Initial Project Structure for a MERN stack Project.
 - [x] Make sure that node_modules and config.env files are not uploaded to Git.
 - [x] There should be a src folder. There will be five folders inside the folder Controllers, Helper, Middleware, Models, and Routes.
 - [x] There will be a total of 13 Controller files inside the Controllers folder.
-- [ ] Each controller will have four function exports.
+- [x] Each controller will have four function exports.
 - [ ] Each function of the controller should use res.status().json() method
 - [ ] A total of 52 router paths will be created. All APIs must be made through GET request.
 - [x] The Helper, Middleware, and Models folders will contain a file called demo.txt.
