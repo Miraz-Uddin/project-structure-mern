@@ -1,0 +1,30 @@
+{
+  "name": "project-structure-mern",
+  "version": "1.0.0",
+  "description": "<br />\r  <p align=\"center\">\r     <img src=\"./logo.png\" alt=\"Logo\" width=\"207\" height=\"47\" />\r     <h3 align=\"center \"><a href=\"https://mern-task-manager-by-miraz.netlify.app\" target=\"_blank\" >MERN Task Manager</a></h3>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.0.1",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "validator": "^13.11.0"
+  }
+}
