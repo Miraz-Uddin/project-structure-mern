@@ -10,7 +10,7 @@
 ## Table of Contents
 
 - [View Template](#-view-template)
-- [Live Link](#-live-link)
+<!-- - [Live Link](#-live-link) -->
 - [Technology](#-technology)
 - [Packages](#-packages)
 - [Requirements](#-requirements)
@@ -44,9 +44,9 @@
 <!-- Live Link  -->
 <br>
 
-## Live Link
+<!-- ## Live Link -->
 
-#### URL: https://project-structure-mern-by-miraz.netlify.app
+<!-- #### URL: https://project-structure-mern-by-miraz.netlify.app -->
 
 <!-- Technology -->
 <br>
