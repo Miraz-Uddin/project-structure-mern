@@ -2,6 +2,7 @@
 const express = require("express");
 const router = require("./src/routes/api");
 const bodyParser = require("body-parser");
+require("dotenv").config();
 
 // Basic Lib Implement
 const app = new express();
@@ -26,12 +27,12 @@ app.use(hpp());
 app.use(limiter);
 
 // Mongo DB Connect
-const URI = "mongodb://127.0.0.1:27017/task_manager";
+const { MONGODB_URI } = process.env;
 const OPTION = { autoIndex: true };
 (async () => {
   try {
-    await mongoose.connect(URI, OPTION);
-    console.log("Connection Succeed");
+    await mongoose.connect(MONGODB_URI, OPTION);
+    console.log("Mongo DB Connection Succeed");
   } catch (err) {
     console.error(err);
   }
